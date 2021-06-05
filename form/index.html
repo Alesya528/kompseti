@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="./form.css">
+
+</head>
+
+<body>
+    <div class="fon">
+        <div class="form">
+
+            <h3>
+                <div class="contInfo">Business Registration Form </div>
+            </h3>
+            <hr>
+            <label>First Name</label>
+            <label>Last Name</label>
+            <div class="pp"></div>
+            <input type="First  Name" placeholder="Jon">
+            <input type="Last Name" placeholder="Snow">
+
+        </div>
+
+        <div class="bisName">
+            <label>Business Name</label>
+            <div class="pp"></div>
+            <input type="bisiName" required>
+        </div>
+
+        <p> </p>
+
+        <div  class="selectCont">
+            <label>Phone Number</label>
+            <div class="pp"></div>
+            <select class="countru" name="" data-="" size="1">
+                <option value="img"><img src="./belarus-belarusian-belarusian-flag-flag-flag-of-belarus.jpg" alt="">
+                </option>
+                <option value="">Abkhazia</option>
+                <option value="">Australia</option>
+                <option value="">Austria</option>
+                <option value="">Azerbaijan</option>
+                <option value="">Aland Islands</option>
+                <option value="">Albania</option>
+
+            </select>
+            <input type="tel" required>
+        </div>
+
+        <p></p>
+
+        <div class="Email">
+            <label>Email</label>
+            <div class="pp"></div>
+            <input type="Email" required>
+        </div>
+
+        <p></p>
+
+        <div class="address">
+            <div>
+                <label>Bussiness Address</label>
+                <div class="pp"></div>
+                <textarea name="notepad" id="AddressC" cols="18" rows="5"></textarea>
+            </div>
+
+            <div>
+                <label>City</label>
+                <div class="pp"></div>
+                <input type="City"> 
+            </div>
+
+            <div>
+                <label>State</label> 
+                <div class="pp"></div>
+                <input type="State">
+            </div>
+             
+        </div>
+    
+        <div class=disckription>
+            <label>Business Description</label> 
+            <div class="pp"></div>
+            <input type="desc">
+        </div>
+        
+        <div class=structure>
+            <label >Business Structure</label> 
+            <div class="pp"></div>
+
+            <select id='BSstr' onChange="javascript: doIcon( this.value );" style="width: 505px;" class="icon" >
+                <option hidden="" class="darkS" value="">Select Option</option>
+                <option style="background-image: url(imgselect/01.gif);" class="icon" value="01">1</option>
+                <option style="background-image: url(imgselect/02.gif);" class="icon" value="02">3</option>
+                <option style="background-image: url(imgselect/03.gif);" class="icon" value="03">4</option>
+                <option style="background-image: url(imgselect/04.gif);" class="icon" value="04">5</option>
+                <option style="background-image: url(imgselect/05.gif);" class="icon" value="05">4</option>
+                <option style="background-image: url(imgselect/06.gif);" class="icon" value="06">4</option>
+            </select> 
+
+            <div class=disckript>
+                <label>Uplood relevant documents</label> 
+                <div class="pp"></div>
+                <button class="but"  ><img src="/box+document+outline+share+top+upload+icon-1320195323221671611.png" alt=""> Click to upload file</button>
+            </div>
+            
+
+            <div class=capcha>
+                <p><input type="checkbox" name="a" value="robot"> I'm not a robor</p>
+            </div>
+
+            <div>
+                <button class="button" type="button" style="color:#E89EE0;">Submit</button>
+            </div>
+        </div>
+
+    </div>
+
+<div class="showUser">
+
+</div>
+
+
+
+   
+
+</body>
+<script src="./form.js"></script>
+
+
+</html>
